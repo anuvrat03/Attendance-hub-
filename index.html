@@ -77,11 +77,9 @@
     <div class="header">Event Attendance</div>
     <p class="subtitle">Please provide your information to check in</p>
     
-    <!-- FormSubmit form -->
-    <form action=<form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="aabc1edc-32c7-45e6-887e-e1849f1634f9">
-  </form>
-
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key"aabc1edc-32c7-45e6-887e-e1849f1634f9">
+      
       <label for="fullname">Full Name</label>
       <input type="text" id="fullname" name="Full Name" placeholder="Enter your full name" required>
       
@@ -89,8 +87,7 @@
       <input type="text" id="idnumber" name="ID Number" placeholder="Enter your ID number" required>
       
       <button type="submit">Submit Attendance</button>
-
-      <!-- Hidden fields (optional extras) -->
+      
       <input type="hidden" name="_subject" value="New Attendance Submission">
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_template" value="table">
